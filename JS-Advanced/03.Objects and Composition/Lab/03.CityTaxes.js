@@ -1,5 +1,5 @@
 function cityTaxes(name, population, treasury) {
-    
+
     let record = {
         name: name,
         population: population,
@@ -15,7 +15,7 @@ function cityTaxes(name, population, treasury) {
         applyRecession(percentage) {
             percentage /=  100;
             this.treasury *= 1 - percentage;
-        }
+        },
     };
 
     return record;
